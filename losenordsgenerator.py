@@ -5,8 +5,7 @@ chars3 = "!%&/()=#"
 import random 
 import string
 password = ""
-password = ""
-for c in range (2):
+for c in range (4):
     password += random.choice(chars)
     password += random.choice(chars1)
     password += random.choice(chars2)
