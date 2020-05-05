@@ -13,6 +13,7 @@ for c in range (4):
 
 password = ''.join(random.sample(password,len(password)))
 
+print(password)
 f= open("losenordfil.txt","a") 
 f.write(password)
 f.write("\n")
